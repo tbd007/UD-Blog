@@ -1,8 +1,8 @@
 #main {
-    width:100%;
+    width:99%;
     height:100vh;
     display:grid;
-    grid-template-rows: 350px 120px 350px 100px 100px 200px 200px 380px 50px;
+    grid-template-rows: 350px 120px 310px 100px 100px 200px 350px 380px 40px;
     grid-template-columns:250px 1fr 1fr;
     position:absolute;
     top:0;
@@ -64,14 +64,16 @@ h2 {
     display:flex;
     flex-direction:row;
     justify-items:space-evenly;
+    background-color:rgba(128, 128, 128, 0.164);
+    
 }
 
 .featured {
     grid-area:4/2/4/4;
     display:flex;
     flex-direction:column;
-    justify-content:flex-end;
-    align-items:flex-end;
+    justify-content:flex-start;
+    align-items:flex-start;
     margin-top:20px;
     padding-right:10px;
 }
@@ -101,7 +103,6 @@ h2 {
 
 #footer {
     grid-area:9/1/9/4;
-    border: 1px solid gray;
 }
 
 li {
@@ -112,8 +113,9 @@ li {
 
 li > a {
     text-decoration:none;
-    font-family:'Open Sans';
+    font-family:'Montserrat';
     color:rgb(250, 244, 244);
+    font-size:0.8em;
 }
 
 a:hover {
@@ -176,6 +178,10 @@ p {
     display:flex;
     flex-direction: row;
     justify-content: flex-end;
+}
+
+.social {
+    display:inline-block;margin:20px auto;
 }
 
 #caption4{
@@ -252,7 +258,7 @@ h4 {
     display:flex;
     height:50px;
     flex-direction: row-reverse;
-    justify-content:space-evenly;
+    justify-content:flex-start;
     align-items:center;
 }
 
@@ -260,12 +266,11 @@ h4 {
     background-image:url(/assets/profile.jpeg);
     background-size:contain;
     height:25px;
-    width:30px;
+    width:25px;
     display:flex;
     flex-direction: row;
     align-items:flex-start;
     border-radius:90px;
-    margin-right:5px;
 }
 
 #authname{
@@ -278,12 +283,20 @@ h4 {
     padding-top:20px;
 }
 
-#blogtitle{
-    text-decoration: underline;
+#authname >p {
+    text-align:right;margin-top:-10px;
+}
+
+
+#blogtitle:hover{
+    color:rgb(251, 151, 151);
+    cursor:pointer;
+    text-decoration:underline;
 }
 
 #coral{
     color:rgb(251, 151, 151);
+    font-size:1.3em;
 }
 
 #sub-btn {
@@ -308,11 +321,12 @@ span {
     height:50px;
     width:100%;
     margin-right:5px;    
-    position:fixed;
+    position: absolute;
+    top:2%; 
 }
 
 nav > li {
-    margin:10px;
+    margin:10px 25px 0px 0px;
     height:30px;
     padding:10px 10px 5px 10px;
     color:rgb(255, 202, 202);
@@ -326,4 +340,12 @@ nav > li:hover {
 
 .active{
     color:white;
+}
+
+#sign{
+    font-family:'Nothing You Could Do', cursive;
+    color:black;
+    font-size:1.5em;
+    margin:5px;
+    
 }
