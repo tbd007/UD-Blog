@@ -285,7 +285,7 @@ span {
     }
 
     .headerimg{
-        background-image:linear-gradient(to top, rgba(121, 121, 131, 0.221), rgba(71, 71, 88, 0.534)), url("/assets/coast.jpg");
+        background-image:linear-gradient(to top, rgba(121, 121, 131, 0.221), rgba(60, 60, 92, 0.671)), url("/assets/coast.jpg");
     }
 
     .preview{   
