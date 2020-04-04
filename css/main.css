@@ -297,9 +297,9 @@ span {
 
     .intro {
         flex-direction:column;
-        margin-top:60px;
-        padding-left:10px;
-        padding-right:10px;
+        margin-top:50px;
+        padding-left:15px;
+        padding-right:15px;
     }
 
     .introtext > p {
@@ -319,7 +319,7 @@ span {
     }
 
     #authimg{
-        display:none;
+        
     }
     
     #authname{
