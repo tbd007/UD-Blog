@@ -2,6 +2,10 @@
 @import "/css/buttons.css";
 @import "/css/typo.css";
 
+body {
+    margin:0px;
+}
+
 /* SECTIONS */ 
 
 .container {

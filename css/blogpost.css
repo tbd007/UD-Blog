@@ -2,6 +2,10 @@
 @import "/css/buttons.css";
 @import "/css/typo.css";
 
+body {
+    margin:0px;
+}
+
 /*Sections*/ 
 
 .container {
@@ -255,7 +259,7 @@ figure, figcaption {
     width:100%;
     display:grid;
     margin:0px;
-    grid-template-rows: 350px 200px  200px auto auto auto 40px;
+    grid-template-rows: 300px 200px  200px auto auto auto 40px;
     grid-template-columns: 100%;
     grid-template-areas:"hd" "blogintro" "bp" "bp" "pw" "as" "ft";
     }

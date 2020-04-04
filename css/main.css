@@ -2,6 +2,10 @@
 @import "/css/buttons.css";
 @import "/css/typo.css";
 
+body {
+    margin:0px;
+}
+
 /*SECTIONS*/
 
 .container {
@@ -269,9 +273,9 @@ span {
     width:100%;
     display:grid;
     margin:0px;
-    grid-template-rows: 350px 670px 200px 600px auto 650px 40px;
+    grid-template-rows: 300px 100px 670px 200px auto auto auto 40px;
     grid-template-columns: 100%;
-    grid-template-areas: "hd" "it" "pi" "ct" "pw" "as" "ft"; 
+    grid-template-areas: "hd" "wt" "it" "pi" "ct" "pw" "as" "ft"; 
     }
 
     .preview{   
@@ -281,9 +285,6 @@ span {
         padding:20px 15px 20px 15px;
     }
 
-    .weather {
-        display:none;
-    }
 
     .intro,.postimg,.content, .headerimg, .weather {
         max-width:100%;
