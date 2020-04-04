@@ -268,6 +268,7 @@ span {
     .container {
     width:100%;
     display:grid;
+    margin:0px;
     grid-template-rows: 350px 670px 200px 600px auto 650px 40px;
     grid-template-columns: 100%;
     grid-template-areas: "hd" "it" "pi" "ct" "pw" "as" "ft"; 

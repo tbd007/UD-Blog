@@ -170,6 +170,7 @@ header > p {
     grid-template-rows: 300px 220px auto auto auto 40px;
     grid-template-columns: 100%;
     grid-template-areas: "hd" "blogintro" "rc" "rc" "as" "ft"; 
+    margin:0px;
     }
 
     .recipes{   
