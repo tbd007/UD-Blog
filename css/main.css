@@ -279,6 +279,10 @@ span {
     grid-template-areas: "hd" "wt" "it" "pi" "ct" "pw" "as" "ft"; 
     }
 
+    .headerimg{
+        background-image:linear-gradient(to right, rgba(56, 56, 70, 0.603), rgba(201, 201, 223, 0.303)), url("/assets/main.jpg");
+    }
+
     .preview{   
         display:flex;
         flex-direction:column;
