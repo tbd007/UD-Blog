@@ -288,6 +288,10 @@ span {
         background-image:linear-gradient(to top, rgba(115, 115, 139, 0.473), rgba(76, 76, 126, 0.712)), url("/assets/coast.jpg");
     }
 
+    #badge{
+        display:none;
+    }
+
     .preview{   
         display:flex;
         flex-direction:column;
