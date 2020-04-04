@@ -285,7 +285,7 @@ span {
     }
 
     .headerimg{
-        background-image:linear-gradient(to top, rgba(115, 115, 139, 0.473), rgba(76, 76, 126, 0.712)), url("/assets/coast.jpg");
+        background-image:linear-gradient(to top, rgba(141, 141, 143, 0.473), rgba(81, 81, 110, 0.712)), url("/assets/coast.jpg");
     }
 
     #badge{
