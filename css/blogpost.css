@@ -16,6 +16,7 @@ body {
     grid-template-columns:280px 1fr 1fr;
     position:absolute;
     top:0;
+    left:0;
     grid-template-areas: "hd hd hd" "as blogintro blogintro" "as bp bp" "as bp bp" "as pw pw" "ft ft ft";
 }
 
