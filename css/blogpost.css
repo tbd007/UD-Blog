@@ -284,6 +284,14 @@ figure, figcaption {
         text-align:center;
     }
 
+    .heading > h1{
+        font-size:2.6em;
+    }
+
+    .heading > h2 {
+        font-size:1.4em;
+    }
+
     h3{
         text-align:center;
         font-size:1.4em;
