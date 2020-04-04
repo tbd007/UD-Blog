@@ -302,6 +302,11 @@ span {
         padding-right:15px;
     }
 
+    .introtext {
+        padding:0px 10px 0px 10px;
+
+    }
+
     .introtext > p {
         text-align:justify;
     }
