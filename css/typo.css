@@ -2,14 +2,18 @@
     color:white;
     font-size:4em;
     font-family:"Montserrat Alternates", sans-serif;
-    text-shadow: 2px 2px 5px rgb(57, 56, 71);
+    text-shadow: 2px 2px 5px rgba(57, 56, 71, 0.87);
 }
 
 .heading > h2 {
     color:rgb(251, 151, 151);
     font-family:"Montserrat", sans-serif;
     font-size:2em;
-    text-shadow: 2px 2px 5px rgb(34, 33, 33);
+    text-shadow: 2px 2px 5px rgba(34, 33, 33, 0.808);
+}
+
+#subtitle {
+    margin:-30px 0px 10px 5px;
 }
 
 h2 {
