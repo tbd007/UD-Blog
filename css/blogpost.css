@@ -276,6 +276,10 @@ figure, figcaption {
         max-width:100%;
     }
 
+    .headerimg {
+        background-image: linear-gradient(to top, rgba(51, 56, 78, 0.488), rgba(84, 98, 129, 0.512)),url("/assets/split.jpeg");
+    }
+
     form {
         margin:10px;
     }
@@ -295,6 +299,7 @@ figure, figcaption {
     h3{
         text-align:center;
         font-size:1.4em;
+        color:rgb(53, 53, 80);
     }
 
     blockquote{
@@ -314,10 +319,6 @@ figure, figcaption {
 
     #footer{
         padding:10px;   
-    }
-
-    #authimg{
-        display:none;
     }
 
     #btn-cont{
