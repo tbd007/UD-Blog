@@ -280,7 +280,7 @@ span {
     }
 
     .headerimg{
-        background-image:linear-gradient(to right, rgba(56, 56, 70, 0.603), rgba(201, 201, 223, 0.303)), url("/assets/main.jpg");
+        background-image:linear-gradient(to right, rgba(56, 56, 70, 0.603), rgba(201, 201, 223, 0.303)), url("/assets/header.jpeg");
     }
 
     .preview{   
