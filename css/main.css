@@ -274,9 +274,9 @@ span {
     .container {
     width:100%;
     display:grid;
-    grid-template-rows: 350px 100px 670px 200px 600px auto 650px 40px;
+    grid-template-rows: 350px 670px 200px 600px auto 650px 40px;
     grid-template-columns: 100%;
-    grid-template-areas: "hd" "wt" "it" "pi" "ct" "pw" "as" "ft"; 
+    grid-template-areas: "hd" "it" "pi" "ct" "pw" "as" "ft"; 
     }
 
     .preview{   
@@ -284,6 +284,10 @@ span {
         flex-direction:column;
         background-color:rgb(56, 52, 63);
         padding:20px 15px 20px 15px;
+    }
+
+    .weather {
+        display:none;
     }
 
     .intro,.postimg,.content, .headerimg, .weather {
@@ -295,7 +299,10 @@ span {
         margin-top:60px;
         padding-left:10px;
         padding-right:10px;
-    
+    }
+
+    .introtext > p {
+        text-align:justify;
     }
 
     form {
@@ -306,8 +313,6 @@ span {
         text-align:center;
         margin-right:0px;
     }
-
-
     #footer{
         padding:10px;
     }
