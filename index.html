@@ -2,18 +2,19 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         <title>DC-BLOG</title>
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Montserrat:300,400|Open+Sans+Condensed:300|Open+Sans:300,400&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
     </head>
     <body>
-       <div id="main">
+       <div class="container">
         <nav id="navbar">
-            <li href="index.html" class="active">Home</li>
-            <li href="blog.html">Blog</li>
-            <li href="about.html">About Me</li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="cuisine.html">Cuisine</a></li>
         </nav>    
         <div class="headerimg">
             <div class="heading">
@@ -30,37 +31,45 @@
         </div>
 
         <div id="aside">
-            <h3 id="coral">Recent Posts</h3>
             <ul>
-                <li><a href="" >24 Hours in Split</a></li>
-                <li><a href="">Kornati Sails Tours</a></li>
-                <li><a href="" class="active">Dubrovnik - Pearl of the Adriatic Sea</a></li>
-                <li><a href="">Plitvice Lakes - Croatias True Nature</a></li>
-                <li><a href="">The Oysters of Ston</a></li>
-                <li><a href="">The Northern Islands of Losinj</a></li>
-                <li><a href="">Festivals & Events 2020</a></li>
+                <li><h3 id="coral">Recent Posts</h3></li>
+                <li><a href="#" >24 Hours in Split</a></li>
+                <li><a href="#">Kornati Sails Tours</a></li>
+                <li><a href="#">Dubrovnik - Pearl of the Adriatic Sea</a></li>
+                <li><a href="#">Plitvice Lakes - Croatias True Nature</a></li>
+                <li><a href="#">The Oysters of Ston</a></li>
+                <li><a href="#">The Northern Islands of Losinj</a></li>
+                <li><a href="#">Festivals & Events 2020</a></li>
             </ul>
             <form>
                 <label for="subscribe" name="sub"><strong>BE UP-TO-DATE!</strong></label><br>
                 <span>Sign up for my weekly newsletter</span><br>
                 <input type="text" name="name" placeholder="Name">
                 <input type="email" name="email" placeholder="Email"><br>
-                <input type="checkbox" name="privacy-check" style="margin-left:6px;"><span> I accept the </span><a style="color:paleturquoise; font-family:'Montserrat'; font-size:0.7em" href="">Privacy Policy</a><br>
+                <span> By clicking on SUBSCRIBE I accept the </span><a style="color:paleturquoise; font-family:'Montserrat'; font-size:0.7em" href="">Privacy Policy</a><br>
                 <button id="sub-btn" type="submit" >SUBSCRIBE</button>
             </form>
             <div class="social">
                 <!--icons-->
-                <img src="assets/fb.png" width="40" height="40" alt="Facebook" href="https://facebook.com">
-                <img src="assets/insta.png" width="38" height="38" alt="Instagram" href="https://instagram/com">
-                <img src="assets/linkedin.png" width="38" height="38" alt="LinkedIn" href="https://linkedin.com">
+                    <a href="#" class="fa fa-facebook" id="fas"></a>
+                    <a href="#" class="fa fa-twitter" id="fas"></a>
+                    <a href="#" class="fa fa-instagram" id="fas"></a>
+                    <a href="#" class="fa fa-linkedin" id="fas"></a>
             </div>
+            <ul>
+                <li><h3 id="coral">Croatia Links & Infos</h3></li>
+                <li><a href="https://croatia.hr/en-GB" >Crotian Tourism Board</a></li>
+                <li><a href="https://croatia.hr/en-GB/experiences/active" >Activities & Outdoors</a></li>
+                <li><a href="https://www.lonelyplanet.com/articles/how-to-see-croatia-in-a-week">Highlights in a Week</a></li>
+                <li><a href="https://www.lonelyplanet.com/croatia">LP Travel Guide</a></li>
+            </ul>
         </div>
 
         
         <div class="intro">
-            <div><img id="profimg" src="assets/profile.jpeg"></div>
+            <div id="profile"><img id="profimg" src="assets/profile.jpeg"></div>
             <div class="introtext">
-                <h3 style="color:rgb(251, 151, 151);">Welcome to Discover Croatia</h3>
+                <h3>Welcome to Discover Croatia</h3>
                 <p>Travelling has always been a huge passion of mine. Above all i love to return to my home
                     country, Croatia. Croatia is a true gem and still not as known as it deserves to be. That 
                     is why i decided to share the beauty of my country with you guys! I hope you enjoy it and 
@@ -68,10 +77,7 @@
                     <br><br>Safe travels, <span id="sign">Rea</span>
                 </p>
             </div>
-        </div>
-
-        
-        
+        </div>              
 
         <div class="postimg">
             <div id="img1"></div>
@@ -82,50 +88,70 @@
         <div class="content">
             <div class="featured">
                 <article>
-                    <h3 id="blogtitle" href="blog.html/#featuredpost">DUBROVNIK- Adria's Pearl</h3>
+                    <h3 id="blogtitle" href="blog.html/#featuredpost">DUBROVNIK- Adria's Pearl <button id="badge">NEW</button></h3>
                     <div id="authorinfo">
                         <div id="authname"><p>by Rea Hadiosmanovic | <time datetime="2020-05-16 19:00">July 16, 2020</time> | 9 Likes</p></div>
                         <div id="authimg"></div>
                     </div>
             </div>
             <p>Regardless of whether you are visiting Dubrovnik for the first time or the hundredth, the sense of awe never fails to descend when you set eyes on the beauty of the old town. Indeed it’s hard to imagine anyone becoming jaded by the city’s limestone streets, baroque buildings and the endless shimmer of the Adriatic, or failing to be inspired by a walk along the ancient city walls that protected the capital of a sophisticated republic for centuries..</p>
+            <p>The story of Dubrovnik begins with the 7th-century onslaught of the Slavs, which had wiped out the Roman city of Epidaurum (site of present-day Cavtat). Residents fled to the safest place they could find, which was the rocky islet of Ragusa, separated from the mainland by a narrow channel. Building walls was a matter of pressing urgency due to the threat of invasion; the city was well fortified by the 9th century when it resisted a Saracen siege for 15 months.
+
+                Meanwhile, another settlement emerged on the mainland, which became known as Dubrovnik, named after the dubrava (holm oak) that carpeted the region. The two settlements merged in the 12th century, and the channel that separated them was filled in.
+                
+                By the end of the 12th century Dubrovnik had become a significant trading centre on the coast, providing an important link between the Mediterranean and Balkan states. Dubrovnik came under Venetian authority in 1205, finally breaking away again in 1358.
+                
+                <br>
             <div id="btn-cont"><button id="continue">Continue Reading</button></div>
         </div>
     </article>
-        <div class="preview">
-            <div id="caption1" class="card" href="">
-                <img src="assets/split2.jpeg" alt="Split" style="width:100%">
-                <div class="container">
-                  <h4>24 Hours Split</h4>
-                  <p>Southern Dolce Vita</p>
-                  <button href="">Read more</button>
-                </div>
-              </div>
-            <div id="caption1" class="card" href="">
-                <img src="assets/losinjislands.jpeg" alt="Split" style="width:100%">
-                <div class="container">
-                  <h4>Losinj Islands</h4>
-                  <p>Northern Treasures</p>
-                  <button href="">Read more</button>
-                </div>
-              </div>
-              <div id="caption1" class="card" href="">
-                <img src="assets/kornati.jpeg" alt="Split" style="width:100%">
-                <div class="container">
-                  <h4>Kornati Sails Tours</h4>
-                  <p>Into the endless horizon</p>
-                  <button href="">Read more</button>
-                </div>
-              </div>
-            <div id="caption2" class="card" href="">
-                <img src="assets/plitvice2.jpeg" alt="Plitvice" style="width:100%">
-                <div class="container">
-                  <h4>Plitvice Lakes</h4>
-                  <p>Discover Croatia's true nature</p>
-                  <button href="">Read more</button>
-                </div>
-              </div>
-        </div>
+
+    <div class="preview">
+        <div id="caption1" class="card" href="">
+            <img src="assets/split2.jpeg" alt="Split" style="width:100%">
+            <div id="authname"><p>Rea H.| <time datetime="2020-01-16 19:00">Jan 16, 2020</time></p></div>
+            <div class="cardcontainer">
+              <header>     
+                <h4>24 Hours Split</h4>
+                <p>La Dolce Vita</p>
+              </header> 
+              <button href="">Read more</button>
+            </div>
+          </div>
+        <div id="caption1" class="card" href="">
+            <img src="assets/losinjislands.jpeg" alt="Split" style="width:100%">
+            <div id="authname"><p>Rea H.| <time datetime="2020-01-16 19:00">Jan 16, 2020</time></p></div>
+            <div class="cardcontainer">
+              <header>
+                <h4>Losinj Islands</h4>
+                <p>Northern Treasures</p>
+              </header> 
+              <button href="">Read more</button>
+            </div>
+          </div>
+          <div id="caption1" class="card" href="">
+            <img src="assets/kornati.jpeg" alt="Split" style="width:100%">
+            <div id="authname"><p>Rea H.| <time datetime="2020-01-16 19:00">Jan 16, 2020</time></p></div>
+            <div class="cardcontainer">
+               <header>
+                <h4>Kornati Sails Tours</h4>
+                <p>Endless horizons</p>
+               </header> 
+              <button href="">Read more</button>
+            </div>
+          </div>
+        <div id="caption1" class="card" href="">
+            <img src="assets/plitvice2.jpeg" alt="Plitvice" style="width:100%">
+            <div id="authname"><p>Rea H.| <time datetime="2020-01-16 19:00">Jan 16, 2020</time></p></div>
+            <div class="cardcontainer">
+              <header>
+                <h4>Plitvice Lakes</h4>
+                <p>Croatia's true nature</p>
+              </header>  
+              <button href="">Read more</button>
+            </div>
+          </div>
+    </div>
 
        
 

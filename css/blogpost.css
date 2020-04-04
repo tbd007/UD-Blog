@@ -1,0 +1,358 @@
+@import "/css/nav.css";
+@import "/css/buttons.css";
+@import "/css/typo.css";
+
+.container {
+    width:99%;
+    margin:0 auto;
+    display:grid;
+    grid-template-rows: 350px 200px 200px auto 420px 40px;
+    grid-template-columns:300px 1fr 1fr;
+    position:absolute;
+    top:0;
+    grid-template-areas: "hd hd hd" "as blogintro blogintro" "as bp bp" "as bp bp" "as pw pw" "ft ft ft";
+}
+
+.blogpost {
+    grid-area:bp;
+}
+
+.headerimg {
+    grid-area: hd;
+    background: linear-gradient(to top, rgba(51, 56, 78, 0.288), rgba(84, 98, 129, 0.212)),url("/assets/split.jpeg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    justify-content:flex-start;
+    padding-left:35px;
+    margin:0;
+}
+
+#aside {
+    grid-area:as;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-items:center;
+    background-color:rgb(102, 123, 138);
+    
+}
+
+.featured {
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-top:20px;
+    padding-right:10px;
+}
+
+.postimg {
+    grid-area:pi;
+    display:grid;
+    grid-template-rows:300px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content {
+    grid-area:ct;
+    background-color:rgb(56, 52, 63);
+    padding:10px 30px 10px 30px;
+    color:white;
+}
+
+.preview {
+    grid-area:pw;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:370px;
+    background-color:rgb(56, 52, 63);
+    padding:20px 15px 20px 15px;
+}
+
+#footer {
+    grid-area:ft;
+}
+
+
+#profimg {
+    object-fit:fill;
+    height:200px;
+    width:270px;
+    margin:30px;
+    box-shadow:inset 2px 2px 10px gray, 2px 2px 10px rgba(128, 128, 128, 0.575);
+    border-radius:12px;
+}
+
+#img1{
+    background-image: url("/assets/dub1.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:300px;
+    
+}
+
+#img2{
+    background-image: url("/assets/dub3.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}    
+
+#img3{
+    background-image: url("/assets/dub2.jpeg");
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.social {
+    display:inline-block;margin:20px auto;
+}
+
+#caption4{
+    
+    grid-area:1/1/1/1;
+}
+
+#caption3{
+    
+    grid-area:1/3/1/3;
+}
+
+#caption1 {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    font-family:'Montserrat';
+    font-weight:300;
+}
+
+label {
+    color:white;
+    font-family:'Montserrat';
+    font-weight:300;
+    font-size:1.3em;
+}
+
+input {
+    margin: 5px auto;
+    background-color:silver;
+    color:rgba(255, 255, 255, 0.616);
+    height:25px;
+    width:60%;
+    border-radius:5px;
+    border:none;
+    padding:5px;
+    font-family:'Montserrat';
+}
+
+form{
+    justify-content:center;
+    margin:20px auto;
+}
+
+#footer {
+    background-color:rgb(43, 43, 44);
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    color:lightslategray;
+    font-size:0.7em;
+}
+
+.card{
+    height:380px;
+    padding-top:0;
+    background-color:rgb(56, 52, 63);
+    margin:5px;
+    border-radius:10px;
+    box-shadow:2px 2px 10px rgb(37, 37, 46);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+#authorinfo{
+    display:flex;
+    height:50px;
+    flex-direction: row-reverse;
+    justify-content:flex-start;
+    align-items:center;
+}
+
+#authimg{
+    background-image:url(/assets/profile.jpeg);
+    background-size:contain;
+    height:16px;
+    width:18px;
+    display:flex;
+    flex-direction: row;
+    align-items:flex-start;
+    border-radius:90px;
+    margin-right:5px;
+}
+
+#authname{
+    height:25px;
+    width:auto;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    padding-top:20px;
+    font-size:0.8em;
+}
+
+#subtitle {
+    margin:-30px 0px 10px 5px;
+}
+
+.active{
+    color: rgb(251, 151, 151);;
+}
+
+#walls{
+    float:left;
+    max-width:400px;
+    width:auto;
+    margin-right:15px;
+}
+
+article{
+    text-align:justify;
+    padding:10px;
+}
+
+#blogintro{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    grid-area:blogintro;
+    padding-bottom:10px;
+    background-color:rgba(128, 128, 128, 0.164);
+}
+
+figure, figcaption {
+    display:flex;
+    flex-direction:column;
+    float: left;
+    font-family:'Open Sans';
+    font-size:0.8em;
+    margin:0;
+    color:gray;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:768px) {
+    
+    .container {
+    width:100%;
+    display:grid;
+    grid-template-rows: 350px 200px  200px auto auto auto 40px;
+    grid-template-columns: 100%;
+    grid-template-areas:"hd" "blogintro" "bp" "bp" "pw" "as" "ft";
+    }
+
+    .preview{    
+        display:flex;
+        flex-direction:column;
+        background-color:rgb(56, 52, 63);
+        padding:20px 15px 20px 15px;
+    }
+
+    .intro,.postimg,.content, .headerimg, .blogpost {
+        max-width:100%;
+    }
+
+    form {
+        margin:10px;
+    }
+
+    .blogintro{
+        text-align:center;
+    }
+
+    #walls{
+        max-width:100%;
+        margin:10px auto;
+    }
+
+    #aside{
+        text-align:center;
+        margin-right:0px;
+    }
+
+
+    #footer{
+        padding:10px;
+        
+    }
+
+    #authimg{
+        display:none;
+    }
+
+    #btn-cont{
+        margin:10px 5px 50px 5px;
+    }
+    
+    #authname{
+        height:20px;
+        width:auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        padding-top:20px;
+        font-size:0.7em;
+    }
+    
+    #authname >p {
+        text-align:left;
+        margin-top:-10px;
+    }
+
+    #navbar {
+        display:flex;
+        flex-direction:row;
+        justify-content:flex-end;
+        height:30px;
+        width:100%;
+        margin-right:5px;    
+        position: absolute;
+        top:0%; 
+    }
+
+    .heading > h1{
+        font-size:3em;
+    }
+
+    .heading > h2 {
+        font-size:1.6em;
+    }
+
+    .heading{
+        margin-top:45px;
+    }
+
+    .card {
+        height:auto;
+        padding:20px;
+        margin:20px;
+    }
+
+    #footer {
+        font-size:0.5em;
+    }
+}
+

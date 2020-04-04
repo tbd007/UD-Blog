@@ -1,0 +1,49 @@
+#continue, button {
+    font-family:'Montserrat', sans-serif;
+    background-color:rgb(102, 123, 138);
+    border:none;
+    padding:10px 15px 10px 15px;
+    border-radius:15px;
+    box-shadow: inset -2px 2px 5px rgba(192, 202, 248, 0.596), 2px -2px 5px rgba(66, 68, 77, 0.59);
+    color:white;
+    margin-top:10px;
+    margin-left:3px;
+}
+
+#btn-cont {
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#sub-btn {
+    font-weight:bolder;
+    letter-spacing:0.4em;
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-linkedin {
+    background-color:rgba(109, 108, 145, 0.61);
+    color:white;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 3px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  #fas{
+    background-color:rgb(56, 52, 63);
+    color:white;
+    border-radius:80px;
+    width:15px;
+    padding:10px;
+    box-shadow: inset -2px -2px 5px rgba(110, 102, 122, 0.692),-2px 2px 5px rgba(138, 140, 163, 0.664);
+  }

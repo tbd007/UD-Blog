@@ -1,0 +1,77 @@
+.heading > h1{
+    color:white;
+    font-size:4em;
+    font-family:"Montserrat Alternates", sans-serif;
+    text-shadow: 2px 2px 5px rgb(57, 56, 71);
+}
+
+.heading > h2 {
+    color:rgb(251, 151, 151);
+    font-family:"Montserrat", sans-serif;
+    font-size:2em;
+    text-shadow: 2px 2px 5px rgb(34, 33, 33);
+}
+
+h2 {
+    font-family:"Montserrat Alternates", sans-serif;
+    font-size:2em;
+    color:rgb(35, 31, 48);
+}
+
+h3 {
+    font-family:'Montserrat', sans-serif;
+    font-weight:300;
+    font-size:2em;
+    color:rgb(35, 31, 48);
+    margin-bottom:-3px;
+}
+
+p {
+    font-family:'Montserrat', sans-serif;
+    font-size:0.9em;
+    line-height: 1.6em;
+    font-weight:300;
+}
+
+
+h4 {
+    margin:10px auto;
+    font-weight:400;
+}
+
+#authname > p {
+    text-align:right;
+    margin-top:-10px;
+}
+
+#blogtitle{
+    color:rgb(251, 151, 151);
+}
+
+
+#blogtitle:hover{
+    cursor:pointer;
+    text-decoration:underline;
+}
+
+#coral{
+    color:rgb(251, 151, 151);
+    font-size:1.3em;
+}
+
+span {
+    color:white; 
+    font-family:'Montserrat';
+    font-size:0.7em;
+}
+
+blockquote {
+    text-align:center;
+    font-family:'Montserrat';
+    font-weight:400;
+    color: rgb(43, 39, 54);
+}
+
+#cctitle{
+    color:rgb(251, 151, 151);
+}
