@@ -195,6 +195,10 @@ header > p {
         margin-right:0px;
     }
 
+    h3{
+        text-align:center;
+        font-size:1.4em;
+    }
 
     #footer{
         padding:10px;
@@ -262,6 +266,11 @@ header > p {
     #footer {
         font-size:0.5em;
     }
+
+    blockquote{
+        font-size:0.9em;
+        font-style:italic;
+    }
 }
 
 .cuisine {
@@ -280,3 +289,4 @@ header > p {
 h3{
     font-size:1.7em;
 }
+

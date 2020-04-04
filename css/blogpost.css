@@ -282,6 +282,16 @@ figure, figcaption {
         text-align:center;
     }
 
+    h3{
+        text-align:center;
+        font-size:1.4em;
+    }
+
+    blockquote{
+        font-size:0.9em;
+        font-style:italic;
+    }
+
     #walls{
         max-width:100%;
         margin:10px auto;
@@ -292,10 +302,8 @@ figure, figcaption {
         margin-right:0px;
     }
 
-
     #footer{
-        padding:10px;
-        
+        padding:10px;   
     }
 
     #authimg{
