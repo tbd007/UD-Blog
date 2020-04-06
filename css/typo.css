@@ -79,3 +79,11 @@ blockquote {
 #cctitle{
     color:rgb(251, 151, 151);
 }
+
+.cimg {
+    width:100%;
+}
+
+.fpp {
+    color:rgb(251, 151, 151);text-decoration:none;
+}
