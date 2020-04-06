@@ -24,7 +24,7 @@ body {
 
 .headerimg {
     grid-area: hd;
-    background-image: url("/assets/header.jpeg");
+    background-image: url("/assets/header.jpg");
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat; 
@@ -239,7 +239,7 @@ span {
 }
 
 #img1{
-    background-image: url("/assets/dub1.jpeg");
+    background-image: url("/assets/dub1.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     height:300px;
@@ -247,19 +247,19 @@ span {
 }
 
 #img2{
-    background-image: url("/assets/dub3.jpeg");
+    background-image: url("/assets/dub3.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }    
 
 #img3{
-    background-image: url("/assets/dub2.jpeg");
+    background-image: url("/assets/dub2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }
 
 #authimg{
-    background-image:url("/assets/profile.jpeg");
+    background-image:url("/assets/profile.jpg");
     background-size:contain;
     height:16px;
     width:18px;
