@@ -52,3 +52,7 @@ button > a{
     color:white;
     text-decoration:none;
 }
+
+.pp {
+    color:paleturquoise; font-family:'Montserrat'; font-size:0.7em;
+}
