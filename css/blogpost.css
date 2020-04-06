@@ -26,7 +26,7 @@ body {
 
 .headerimg {
     grid-area: hd;
-    background: linear-gradient(to top, rgba(51, 56, 78, 0.288), rgba(84, 98, 129, 0.212)),url("/assets/split.jpeg");
+    background: linear-gradient(to top, rgba(51, 56, 78, 0.288), rgba(84, 98, 129, 0.212)),url("/assets/split.jpg");
     background-position: center;
     background-size:cover;
     background-repeat:no-repeat; 
@@ -219,7 +219,7 @@ figure, figcaption {
 }
 
 #img1{
-    background-image: url("/assets/dub1.jpeg");
+    background-image: url("/assets/dub1.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     height:300px;
@@ -227,19 +227,19 @@ figure, figcaption {
 }
 
 #img2{
-    background-image: url("/assets/dub3.jpeg");
+    background-image: url("/assets/dub3.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }    
 
 #img3{
-    background-image: url("/assets/dub2.jpeg");
+    background-image: url("/assets/dub2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
 }
 
 #authimg{
-    background-image:url("/assets/profile.jpeg");
+    background-image:url("/assets/profile.jpg");
     background-size:contain;
     height:16px;
     width:18px;
@@ -277,7 +277,7 @@ figure, figcaption {
     }
 
     .headerimg {
-        background-image: linear-gradient(to top, rgba(51, 56, 78, 0.488), rgba(84, 98, 129, 0.512)),url("/assets/split.jpeg");
+        background-image: linear-gradient(to top, rgba(51, 56, 78, 0.488), rgba(84, 98, 129, 0.512)),url("/assets/split.jpg");
     }
 
     form {
